@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package chromosomes;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-/**
- *
- * @author ilpo
- */
 public abstract class DnaMatch {
     int gd;                 // Genetic distance
     GregorianCalendar day;  // Date of the found match
